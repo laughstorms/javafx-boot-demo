@@ -43,6 +43,18 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>com.zenjava</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <configuration>
+                    <!-- 启动类 -->
+                    <mainClass>com.laughstorm.javafxboot.demo.Application</mainClass>
+                    <!-- 运行文件名 -->
+                    <appName>HelloWorld</appName>
+                    <!-- 公司名称 -->
+                    <vendor>laughstorm</vendor>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
